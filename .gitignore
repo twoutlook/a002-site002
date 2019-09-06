@@ -1,0 +1,28 @@
+# ref
+# https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+#.env
+db.sqlite3
+
+# static still to upload, not to run collectstatic on server
+/media
