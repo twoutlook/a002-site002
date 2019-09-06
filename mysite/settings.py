@@ -26,7 +26,7 @@ SECRET_KEY = 'kn*+mb27)_@-0j7^co+)z*s-jm!+_u!ltl#6wjtvdy0b1o&b@f'
 DEBUG = True
 
 # ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['127.0.0.1','django2021.com','www.djagno2021.com']
+ALLOWED_HOSTS = ['127.0.0.1','django2021.com','www.django2021.com']
 
 
 
