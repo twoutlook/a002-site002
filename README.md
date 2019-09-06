@@ -1,4 +1,4 @@
-# a002-site001
+# a002-site002
 
 ## on local dev
 pip freeze > requirements.txt
@@ -18,10 +18,10 @@ cd /home/demo/site001
 
 ### 部署時必要的權限設置
 sudo chmod 710 /home/demo
-sudo chmod 664 /home/demo/site001/db.sqlite3
+sudo chmod 664 /home/demo/site002/db.sqlite3
 
-sudo chown :apache /home/demo/site001
-sudo chown :apache /home/demo/site001/db.sqlite3
+sudo chown :apache /home/demo/site002
+sudo chown :apache /home/demo/site002/db.sqlite3
 
 
 ### 更新時重起 Apache
